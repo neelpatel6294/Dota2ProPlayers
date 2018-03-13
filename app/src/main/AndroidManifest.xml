@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android.dota2proplayers">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,6 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailActivity"></activity>
+
+        <provider
+            android:name="com.example.android.dota2proplayers.Data.PlayerContentProvider"
+            android:authorities="com.example.android.dota2proplayers"
+            android:exported="false" />
     </application>
 
 </manifest>

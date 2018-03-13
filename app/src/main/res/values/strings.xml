@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Dota2ProPlayers</string>
+
+    <string name="menu_all">All</string>
+    <string name="menu_Fav">Favorite Heroes</string>
 </resources>
